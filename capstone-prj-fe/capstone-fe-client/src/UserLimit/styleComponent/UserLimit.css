@@ -1,0 +1,29 @@
+.contentStyle {
+    height: 160px;
+    width: 70%;
+    color: var(--light);
+    line-height: 160px;
+    background: #5a5a5a;
+    border-radius: var(--border-radius);
+    margin: 35px 0 0 80px;
+}
+
+.slick-dots.slick-dots-bottom {
+    right: 13%;
+}
+
+.bg_consumer_loan {
+    background-image: url("https://res.cloudinary.com/da0i1amaa/image/upload/v1657776987/0RUqr7_mlwobq.jpg");
+    /* Full height */
+    min-height: 100%;
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_business_loan {
+    background-image: url("https://res.cloudinary.com/da0i1amaa/image/upload/v1657777007/vecteezy_background-colorful-abstract_fj0221_generated_rvj45p.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

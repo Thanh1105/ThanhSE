@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141654",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "investment_lending_request",
+  "fields": [
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "InvestmentLendingRequest",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "lendingRequest",
+      "otherEntityRelationshipName": "investmentLendingRequest",
+      "relationshipName": "lendingRequest",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "investmentRequest",
+      "otherEntityRelationshipName": "investmentLendingRequest",
+      "relationshipName": "investmentRequest",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

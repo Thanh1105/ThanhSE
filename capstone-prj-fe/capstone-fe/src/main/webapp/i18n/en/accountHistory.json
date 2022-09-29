@@ -1,0 +1,31 @@
+{
+  "capstoneFeApp": {
+    "accountHistory": {
+      "home": {
+        "title": "Account Histories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Account History",
+        "createOrEditLabel": "Create or edit a Account History",
+        "notFound": "No Account Histories found"
+      },
+      "created": "A new Account History is created with identifier {{ param }}",
+      "updated": "A Account History is updated with identifier {{ param }}",
+      "deleted": "A Account History is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Account History {{ id }}?"
+      },
+      "detail": {
+        "title": "Account History"
+      },
+      "id": "ID",
+      "transactionName": "Transaction Name",
+      "amount": "Amount",
+      "senderId": "Sender Id",
+      "receiverId": "Receiver Id",
+      "type": "Type",
+      "status": "Status",
+      "note": "Note",
+      "balanceAccount": "Balance Account"
+    }
+  }
+}

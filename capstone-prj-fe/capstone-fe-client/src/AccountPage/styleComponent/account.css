@@ -1,0 +1,5 @@
+.list_item_text {
+    flex-grow: 1;
+    color: var(--dark);
+    cursor: pointer;
+}

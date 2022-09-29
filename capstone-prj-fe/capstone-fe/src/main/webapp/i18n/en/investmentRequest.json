@@ -1,0 +1,28 @@
+{
+  "capstoneFeApp": {
+    "investmentRequest": {
+      "home": {
+        "title": "Investment Requests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Investment Request",
+        "createOrEditLabel": "Create or edit a Investment Request",
+        "notFound": "No Investment Requests found"
+      },
+      "created": "A new Investment Request is created with identifier {{ param }}",
+      "updated": "A Investment Request is updated with identifier {{ param }}",
+      "deleted": "A Investment Request is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Investment Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Investment Request"
+      },
+      "id": "ID",
+      "amount": "Amount",
+      "discount": "Discount",
+      "actuallyReceived": "Actually Received",
+      "investmentLendingRequest": "Investment Lending Request",
+      "accounts": "Accounts"
+    }
+  }
+}

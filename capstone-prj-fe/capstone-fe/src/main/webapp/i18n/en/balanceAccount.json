@@ -1,0 +1,27 @@
+{
+  "capstoneFeApp": {
+    "balanceAccount": {
+      "home": {
+        "title": "Balance Accounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Balance Account",
+        "createOrEditLabel": "Create or edit a Balance Account",
+        "notFound": "No Balance Accounts found"
+      },
+      "created": "A new Balance Account is created with identifier {{ param }}",
+      "updated": "A Balance Account is updated with identifier {{ param }}",
+      "deleted": "A Balance Account is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Balance Account {{ id }}?"
+      },
+      "detail": {
+        "title": "Balance Account"
+      },
+      "id": "ID",
+      "type": "Type",
+      "balance": "Balance",
+      "accountHistory": "Account History",
+      "accounts": "Accounts"
+    }
+  }
+}

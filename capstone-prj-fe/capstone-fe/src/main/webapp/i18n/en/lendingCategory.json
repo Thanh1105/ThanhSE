@@ -1,0 +1,25 @@
+{
+  "capstoneFeApp": {
+    "lendingCategory": {
+      "home": {
+        "title": "Lending Categories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Lending Category",
+        "createOrEditLabel": "Create or edit a Lending Category",
+        "notFound": "No Lending Categories found"
+      },
+      "created": "A new Lending Category is created with identifier {{ param }}",
+      "updated": "A Lending Category is updated with identifier {{ param }}",
+      "deleted": "A Lending Category is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lending Category {{ id }}?"
+      },
+      "detail": {
+        "title": "Lending Category"
+      },
+      "id": "ID",
+      "lendingRequest": "Lending Request",
+      "category": "Category"
+    }
+  }
+}

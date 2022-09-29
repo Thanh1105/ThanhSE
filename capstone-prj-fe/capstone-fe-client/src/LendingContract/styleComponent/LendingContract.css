@@ -1,0 +1,15 @@
+.btn_contract {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.btn_contract_active {
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button);
+    color: var(--light);
+}

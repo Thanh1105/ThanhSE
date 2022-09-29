@@ -1,0 +1,40 @@
+{
+  "capstoneFeApp": {
+    "accounts": {
+      "home": {
+        "title": "Accounts",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Accounts",
+        "createOrEditLabel": "Create or edit a Accounts",
+        "notFound": "No Accounts found"
+      },
+      "created": "A new Accounts is created with identifier {{ param }}",
+      "updated": "A Accounts is updated with identifier {{ param }}",
+      "deleted": "A Accounts is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Accounts {{ id }}?"
+      },
+      "detail": {
+        "title": "Accounts"
+      },
+      "id": "ID",
+      "googleId": "Google Id",
+      "lastName": "Last Name",
+      "firstName": "First Name",
+      "password": "Password",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "birth": "Birth",
+      "gender": "Gender",
+      "creditScore": "Credit Score",
+      "averageRating": "Average Rating",
+      "isSuperUser": "Is Super User",
+      "status": "Status",
+      "balanceAccount": "Balance Account",
+      "notification": "Notification",
+      "notificationToken": "Notification Token",
+      "investmentRequest": "Investment Request",
+      "lendingRequest": "Lending Request"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141656",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "indentification",
+  "fields": [
+    {
+      "fieldName": "indentifyCard1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "indentifyCard2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "drivingLicense1",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "drivingLicense2",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Indentification",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}

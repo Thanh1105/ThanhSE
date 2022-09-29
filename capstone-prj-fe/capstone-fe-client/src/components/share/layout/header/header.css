@@ -1,0 +1,17 @@
+.modal-backdrop {
+    opacity: .1 !important;
+    z-index: 999 !important;
+}
+
+.body-modal {
+    padding: 0 !important;
+}
+
+.modal-container {
+    overflow: hidden !important;
+    border-radius: 5% !important;
+}
+
+.Terms_Policy {
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+.body-block {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--button);
+    min-height: 120px;
+}
+
+.ant-select {
+    min-width: 200px;
+    min-height: 20px;
+    top: 10%;
+    right: 10%;
+}
+
+.notification {
+    background-color: var(--button) !important;
+    color: white !important;
+    border: none !important;
+    top: 10%;
+    right: 20px;
+}
+
+.noti-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.body-board {
+    border-radius: 20px;
+    background-color: var(--light);
+    min-height: 200px;
+    width: 100%;
+    top: 80px;
+    left: 0;
+}
+
+.surplus-visible {
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown-divider {
+    border: none;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #333;
+}
+
+.body-board-feature {
+    margin: auto;
+    border-radius: var(--border-radius);
+    background-color: var(--button);
+    min-height: 48px;
+    width: 48px;
+}
+
+.body-board-feature:hover {
+    background-color: #157347;
+}
+
+.sidebar {
+    margin: 0;
+}
+
+.dropdown-divider-invetor {
+    height: 1px;
+    background-color: #aaa;
+    margin: auto 0px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.button-userLimit {
+    transform: rotate(-90deg);
+    background-color: var(--button);
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.body-feature {
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.notify-circle {
+    position: absolute;
+    right: 15%;
+    top: -1%;
+    color: red;
+    font-size: 10px;
+}

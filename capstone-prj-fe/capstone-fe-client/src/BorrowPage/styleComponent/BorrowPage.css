@@ -1,0 +1,43 @@
+.borrow_detail {
+    background-color: var(--primary);
+    min-height: 260px;
+    border-radius: var(--border-radius);
+}
+
+.btn-borrow {
+    background-color: var(--light);
+    border-radius: var(--border-radius);
+    border: #fff;
+    width: 95%;
+}
+
+.btn-borrow:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.borrow_alert {
+    border-radius: var(--border-radius);
+    min-height: 50px;
+    background-color: #FFB133;
+}
+
+.icon_alert {
+    width: 24px;
+    height: 24px;
+}
+
+.borrow_create_cancel {
+    background-color: #ff0000;
+    color: var(--light);
+    border-radius: var(--border-radius);
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+.borrow_create_start {
+    background-color: #4952b8;
+    color: var(--light);
+    border-radius: var(--border-radius);
+    margin-top: 1%;
+    cursor: pointer;
+}

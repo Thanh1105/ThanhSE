@@ -1,0 +1,57 @@
+.text_primary {
+    color: var(--primary);
+}
+
+hr.divider-primary {
+    background-color: var(--primary);
+    height: 2px;
+}
+
+.btn_loanconfirm {
+    width: 100%;
+    background-color: var(--primary);
+    border-radius: var(--border-radius);
+    border-color: var(--light);
+    color: var(--light);
+    height: 48px;
+    box-shadow: none;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.btn_loanconfirm:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+        0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.title {
+    padding-left: 22px;
+}
+
+.lend_accept {
+    background-color: rgba(0, 61, 49, 1);
+    border-radius: var(--border-radius);
+    width: 80%;
+    cursor: pointer;
+    margin: auto;
+}
+
+.resend_OTP{
+    background-color: var(--button);
+    color: var(--light);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-right: 1px solid rgb(217, 217, 217);
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.ant-btn-primary {
+    background-color: var(--button);
+}
+
+.ant-btn {
+    border-radius: var(--border-radius);
+}
+
+.ant-modal-title {
+    text-align: center;
+}

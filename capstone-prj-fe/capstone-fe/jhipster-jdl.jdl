@@ -1,0 +1,98 @@
+
+entity Accounts  {
+	googleId String,
+    lastName String,
+    firstName String,
+    password String,
+    email String,
+    phoneNumber String,
+    birth Instant,
+    gender Boolean,
+    creditScore Float,
+    averageRating Float,
+    isSuperUser Boolean,
+    status String
+}
+
+entity BalanceAccount {
+    type Integer,
+    balance Float
+}
+
+entity AccountHistory {
+    transactionName String,
+    amount Float,
+    senderId Integer,
+    receiverId Integer,
+    type Integer,
+    status String,
+    note String
+}
+
+entity LendingRequest {
+	longId Integer,
+    description String,
+    typeOfLending Integer,
+    maxNumberOfInverstor Integer,
+    availableMoney Float,
+    amount Float,
+    total Float,
+    interestRate Float,
+    startDate Instant,
+    endDate Instant
+}
+
+entity LendingCategory {
+	
+}
+
+entity Category {
+	label String,
+    description String
+}
+
+entity InvestmentLendingRequest {
+	status Integer
+}
+
+entity InvestmentRequest {
+	amount Float,
+    discount Float,
+    actuallyReceived Float
+}
+
+entity Indentification {
+	indentifyCard1 String,
+    indentifyCard2 String,
+    drivingLicense1 String,
+    drivingLicense2 String,
+    status Integer
+}
+
+entity NotificationToken {
+	token String
+}
+
+entity Notification {
+	typeNoti Integer,
+    typeAccount Integer,
+    message String,
+    hasRead Boolean
+}
+
+relationship OneToMany {
+	Accounts to BalanceAccount,
+    Accounts to Notification,
+    Accounts to NotificationToken,
+    Accounts to InvestmentRequest,
+    Accounts to LendingRequest,
+    
+    BalanceAccount to AccountHistory,
+    
+    LendingRequest to LendingCategory,
+    LendingRequest to InvestmentLendingRequest,
+    
+    InvestmentRequest to InvestmentLendingRequest
+    Category to LendingCategory,
+     
+}

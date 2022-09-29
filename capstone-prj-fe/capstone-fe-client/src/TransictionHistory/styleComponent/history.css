@@ -1,0 +1,39 @@
+.history_filter_item {
+    width: 45%;
+}
+
+.history_dropdown {
+    width: 40%;
+}
+
+.history-item {
+    cursor: pointer;
+    background-color: white;
+    padding: 10px 10%;
+    border-radius: 8px;
+    margin-bottom: 2%;
+}
+
+.item-status_done {
+    background-color: #C9FFC5;
+    color: var(--button);
+    border-radius: 10px;
+}
+
+.item-status_cancel {
+    background-color: #DD3232;
+    color: var(--light);
+    border-radius: 10px;
+}
+
+.item-status_process {
+    background-color: #2F80ED;
+    color: var(--light);
+    border-radius: 10px;
+}
+
+.item-status_open {
+    background-color: #B3B3B3;
+    color: var(--dark);
+    border-radius: 10px;
+}

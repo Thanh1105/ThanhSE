@@ -1,0 +1,10 @@
+.list_profile_item {
+    cursor: pointer;
+    background-color: var(--light);
+    border-radius: var(--border-radius);
+}
+
+.profile_check {
+    width: 36px;
+    height: 36px;
+}

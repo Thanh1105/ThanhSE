@@ -1,0 +1,84 @@
+.contain-bg {
+    /* The image used */
+    background-image: url("https://res.cloudinary.com/da0i1amaa/image/upload/v1652787327/sr_q4vfli.png?fbclid=IwAR2gMLXpCeeyatal5_qbmzjmLNEejncEXJr78P19Ka7VzOoouYS2LcnXLmM");
+
+    /* Full height */
+    height: 100%;
+    min-height: 100vh;
+    /* Center and scale the image nicely */
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+.contain-form {
+    background-color: rgba(0, 121, 70, 1);
+
+    overflow: auto;
+}
+
+.tag-input {
+    position: relative;
+
+    width: 80%;
+    margin: auto;
+}
+
+.tag-input input {
+    padding-left: 20%;
+}
+
+.icon {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+    margin-top: 4px;
+    left: 0;
+}
+
+.icon-eyes {
+    right: 10%;
+}
+
+.button-google {
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    border: 1px solid #000;
+    border-radius: 20px;
+    height: 50px;
+    padding: 2% 0;
+}
+
+.button-facebook {
+    cursor: pointer;
+    text-align: center;
+    height: 50px;
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+    background-color: #1877f2;
+    color: var(--light);
+    border-radius: 20px;
+    padding: 2% 0;
+}
+
+.login {
+    text-align: center;
+    background-color: rgba(0, 78, 45, 1);
+    overflow: hidden;
+    color: white;
+}
+
+.login p {
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    cursor: pointer;
+}
+
+.image {
+    left: 5%;
+}

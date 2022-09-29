@@ -1,0 +1,27 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141657",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "notification_token",
+  "fields": [
+    {
+      "fieldName": "token",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "NotificationToken",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "notificationToken",
+      "relationshipName": "accounts",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

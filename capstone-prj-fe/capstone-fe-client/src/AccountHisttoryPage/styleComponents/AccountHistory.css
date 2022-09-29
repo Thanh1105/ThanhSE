@@ -1,0 +1,38 @@
+.account_history {
+    width: 50%;
+    cursor: pointer;
+    border-radius: var(--border-radius);
+}
+
+.date_left {
+    width: 2.09em;
+    height: 2.09em;
+    border-radius: 5px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    line-height: 17px;
+    margin-right: 10px;
+}
+
+.date_right div {
+    margin: 0;
+    padding: 4px 0;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.content_info {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e9ee;
+    margin-bottom: 17px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}

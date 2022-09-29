@@ -1,0 +1,29 @@
+.text-primary {
+    color: var(--primary);
+}
+
+hr.divider-primary {
+    background-color: #007946;
+    height: 2px;
+}
+
+.btn_loanconfirm {
+    width: 100%;
+    background-color: #007946;
+    border-radius: 10px;
+    border-color: #fff;
+    color: #fff;
+    height: 48px;
+    box-shadow: none;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.btn_loanconfirm:hover {
+    box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+        0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.title {
+    padding-left: 22px;
+}

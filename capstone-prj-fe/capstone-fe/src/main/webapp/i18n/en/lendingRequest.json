@@ -1,0 +1,36 @@
+{
+  "capstoneFeApp": {
+    "lendingRequest": {
+      "home": {
+        "title": "Lending Requests",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Lending Request",
+        "createOrEditLabel": "Create or edit a Lending Request",
+        "notFound": "No Lending Requests found"
+      },
+      "created": "A new Lending Request is created with identifier {{ param }}",
+      "updated": "A Lending Request is updated with identifier {{ param }}",
+      "deleted": "A Lending Request is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lending Request {{ id }}?"
+      },
+      "detail": {
+        "title": "Lending Request"
+      },
+      "id": "ID",
+      "longId": "Long Id",
+      "description": "Description",
+      "typeOfLending": "Type Of Lending",
+      "maxNumberOfInverstor": "Max Number Of Inverstor",
+      "availableMoney": "Available Money",
+      "amount": "Amount",
+      "total": "Total",
+      "interestRate": "Interest Rate",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "lendingCategory": "Lending Category",
+      "investmentLendingRequest": "Investment Lending Request",
+      "accounts": "Accounts"
+    }
+  }
+}

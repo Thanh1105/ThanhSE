@@ -1,0 +1,51 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141650",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "account_history",
+  "fields": [
+    {
+      "fieldName": "transactionName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "senderId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "receiverId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "type",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "note",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AccountHistory",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "balanceAccount",
+      "otherEntityRelationshipName": "accountHistory",
+      "relationshipName": "balanceAccount",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

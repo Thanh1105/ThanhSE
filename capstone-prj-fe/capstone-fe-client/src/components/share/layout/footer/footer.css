@@ -1,0 +1,30 @@
+.container_footer {
+    background-color: var(--primary);
+}
+
+.footer_divider {
+    display: flex;
+    margin: auto;
+    border: none;
+    height: 1px;
+    width: 40px;
+    background-color: var(--light);
+    margin: 5px auto;
+}
+
+.footer_link {
+    cursor: pointer;
+}
+
+.footer_end_divider {
+    display: flex;
+    margin: auto;
+    border: none;
+    height: 2px;
+    background-color: var(--light);
+    width: 80%;
+}
+
+.footer_copyright {
+    right: 10%;
+}

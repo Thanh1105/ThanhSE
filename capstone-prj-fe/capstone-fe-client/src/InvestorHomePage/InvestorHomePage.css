@@ -1,0 +1,77 @@
+.body-block {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: rgba(0, 61, 49, 1);
+    min-height: 120px;
+}
+
+.ant-dropdown-trigger {
+    min-width: 200px;
+    min-height: 20px;
+    top: 10%;
+    right: 10%;
+}
+
+.notification {
+    background-color: rgba(0, 61, 49, 1) !important;
+    color: white !important;
+    border: none !important;
+    top: 10%;
+    right: 20px;
+}
+
+.noti-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.body-board {
+    border-radius: 20px;
+    background-color: #fff;
+    min-height: 200px;
+    width: 100%;
+    top: 80px;
+    left: 0;
+}
+
+.surplus-visible {
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown-divider {
+    border: none;
+    height: 1px;
+    flex-shrink: 0;
+    background-color: #AAA;
+}
+
+.body-board-feature {
+    margin: auto;
+    border-radius: 10px;
+    background-color: #003D31;
+    min-height: 48px;
+    width: 48px;
+}
+
+.sidebar {
+    margin: 0 auto;
+}
+
+.dropdown-divider-invetor {
+    height: 1px;
+    background-color: #AAA;
+    margin: auto 0px;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.button-userLimit {
+    transform: rotate(-90deg);
+    background-color: #003D31;
+    color: white;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}

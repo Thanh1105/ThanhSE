@@ -1,0 +1,36 @@
+.basic_profile {
+    background-color: var(--light);
+    border-radius: var(--border-radius);
+}
+
+.profile_Uncompleted {
+    background-color: #db1111;
+    border-radius: var(--border-radius);
+    padding: 0px 10px;
+}
+
+.profile_completed {
+    background-color: #11db36;
+    border-radius: var(--border-radius);
+    padding: 0px 10px;
+}
+
+.profile {
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+    cursor: pointer;
+}
+
+.account_info {
+    background-color: var(--light);
+    border-radius: var(--border-radius);
+    max-width: 60%;
+}
+
+.user_field {
+    color: #8c8ca1;
+}
+
+.user_infor {}

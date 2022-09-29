@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141658",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "notification",
+  "fields": [
+    {
+      "fieldName": "typeNoti",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "typeAccount",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "message",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hasRead",
+      "fieldType": "Boolean"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Notification",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "notification",
+      "relationshipName": "accounts",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

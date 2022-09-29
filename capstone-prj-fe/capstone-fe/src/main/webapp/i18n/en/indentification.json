@@ -1,0 +1,28 @@
+{
+  "capstoneFeApp": {
+    "indentification": {
+      "home": {
+        "title": "Indentifications",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Indentification",
+        "createOrEditLabel": "Create or edit a Indentification",
+        "notFound": "No Indentifications found"
+      },
+      "created": "A new Indentification is created with identifier {{ param }}",
+      "updated": "A Indentification is updated with identifier {{ param }}",
+      "deleted": "A Indentification is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Indentification {{ id }}?"
+      },
+      "detail": {
+        "title": "Indentification"
+      },
+      "id": "ID",
+      "indentifyCard1": "Indentify Card 1",
+      "indentifyCard2": "Indentify Card 2",
+      "drivingLicense1": "Driving License 1",
+      "drivingLicense2": "Driving License 2",
+      "status": "Status"
+    }
+  }
+}

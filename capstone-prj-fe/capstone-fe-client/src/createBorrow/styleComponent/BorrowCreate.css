@@ -1,0 +1,70 @@
+.borrow_create {
+    background-color: var(--light);
+    min-height: 130px;
+}
+
+.select_box {
+    left: 0;
+}
+
+.borrow_create_dropdown {
+    background-color: var(--light);
+}
+
+.select_borrow_type {
+    background-color: var(--light);
+    min-height: 50px;
+}
+
+.form-control {
+    border-radius: var(--border-radius);
+}
+
+.borrow_amount {
+    min-height: 50px;
+    width: 70%;
+}
+
+.button-select {
+    border-radius: var(--border-radius) !important;
+    min-height: 30px;
+}
+
+.ant-select-selector {
+    border-radius: var(--border-radius) !important;
+}
+
+.borrow_dropdown {
+    min-width: 30%;
+}
+
+.borrow_date {
+    background-color: var(--light);
+    min-height: 70px;
+}
+
+.btn_startdate {
+    background-color: var(--light);
+    border-radius: var(--border-radius);
+    width: 90%;
+    height: 40px;
+}
+
+.btn_send {
+    background-color: var(--button);
+    border-radius: var(--border-radius);
+    width: 70%;
+    height: 50px;
+}
+
+.interest_rate {
+    width: 20%;
+}
+
+.required_field {
+    color: red;
+}
+
+.borrow_minimum-for-start {
+    background-color: var(--light);
+}

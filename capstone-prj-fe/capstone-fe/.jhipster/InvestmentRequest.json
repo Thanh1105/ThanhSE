@@ -1,0 +1,41 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141655",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "investment_request",
+  "fields": [
+    {
+      "fieldName": "amount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "discount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "actuallyReceived",
+      "fieldType": "Float"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "InvestmentRequest",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "investmentLendingRequest",
+      "otherEntityRelationshipName": "investmentRequest",
+      "relationshipName": "investmentLendingRequest",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "investmentRequest",
+      "relationshipName": "accounts",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

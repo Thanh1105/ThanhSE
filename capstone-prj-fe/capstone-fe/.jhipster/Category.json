@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141653",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "category",
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Category",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "lendingCategory",
+      "otherEntityRelationshipName": "category",
+      "relationshipName": "lendingCategory",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

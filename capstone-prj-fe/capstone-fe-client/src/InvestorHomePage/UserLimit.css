@@ -1,0 +1,13 @@
+.contentStyle {
+    height: 160px;
+    width: 70%;
+    color: #fff;
+    line-height: 160px;
+    background: #5A5A5A;
+    border-radius: 10px;
+    margin: 35px 0 0 80px;
+}
+
+.slick-dots.slick-dots-bottom {
+    right: 13%;
+}

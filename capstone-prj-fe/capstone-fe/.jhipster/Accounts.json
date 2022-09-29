@@ -1,0 +1,95 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141648",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "accounts",
+  "fields": [
+    {
+      "fieldName": "googleId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "password",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "birth",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "creditScore",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "averageRating",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "isSuperUser",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Accounts",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "balanceAccount",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "balanceAccount",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "notification",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "notification",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "notificationToken",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "notificationToken",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "investmentRequest",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "investmentRequest",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "lendingRequest",
+      "otherEntityRelationshipName": "accounts",
+      "relationshipName": "lendingRequest",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

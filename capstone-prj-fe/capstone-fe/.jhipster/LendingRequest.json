@@ -1,0 +1,75 @@
+{
+  "applications": "*",
+  "changelogDate": "20220602141651",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "lending_request",
+  "fields": [
+    {
+      "fieldName": "longId",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typeOfLending",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "maxNumberOfInverstor",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "availableMoney",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "amount",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "total",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "interestRate",
+      "fieldType": "Float"
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "endDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "LendingRequest",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "lendingCategory",
+      "otherEntityRelationshipName": "lendingRequest",
+      "relationshipName": "lendingCategory",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "investmentLendingRequest",
+      "otherEntityRelationshipName": "lendingRequest",
+      "relationshipName": "investmentLendingRequest",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "accounts",
+      "otherEntityRelationshipName": "lendingRequest",
+      "relationshipName": "accounts",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

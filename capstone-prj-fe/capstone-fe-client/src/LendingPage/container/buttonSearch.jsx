@@ -1,0 +1,14 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
+
+const ButtonSearch = (props) => {
+    const { title, path } = props;
+    const navigate = useNavigate();
+    return (
+        <div className="body-search" onClick={() => navigate(path)}>
+            <h4 className="text-white text-center search">{title} </h4>
+        </div>
+    );
+};
+
+export default ButtonSearch;
